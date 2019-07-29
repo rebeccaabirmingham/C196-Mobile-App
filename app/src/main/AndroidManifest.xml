@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wgu.c196termscheduler">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TermViewActivity"
+            android:label="@string/title_activity_term_view"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wgu.c196termscheduler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseViewActivity"
+            android:label="@string/title_activity_course_view"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wgu.c196termscheduler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditTermActivity"
+            android:label="@string/title_activity_edit_term"
+            android:parentActivityName=".TermViewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wgu.c196termscheduler.TermViewActivity" />
+        </activity>
+        <activity
+            android:name=".EditCourseActivity"
+            android:label="@string/title_activity_edit_course"
+            android:parentActivityName=".CourseViewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wgu.c196termscheduler.CourseViewActivity" />
+        </activity>
+        <activity
+            android:name=".MentorViewActivity"
+            android:label="@string/title_activity_mentor_view"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wgu.c196termscheduler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditMentorActivity"
+            android:label="@string/title_activity_edit_mentor"
+            android:parentActivityName=".MentorViewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wgu.c196termscheduler.MentorViewActivity" />
+        </activity>
+        <activity
+            android:name=".AssessmentViewActivity"
+            android:label="@string/title_activity_assessment_view"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wgu.c196termscheduler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EditAssessmentActivity"
+            android:label="@string/title_activity_edit_assessment"
+            android:parentActivityName=".AssessmentViewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.wgu.c196termscheduler.AssessmentViewActivity" />
+        </activity>
+        <receiver android:name=".MyNotificationPublisher" />
+    </application>
+
+</manifest>

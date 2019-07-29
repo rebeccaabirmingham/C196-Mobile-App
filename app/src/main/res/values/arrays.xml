@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courseStatus">
+        <item>@string/course_status</item>
+        <item>@string/course_notStarted</item>
+        <item>@string/course_inProgress</item>
+        <item>@string/course_completed</item>
+    </string-array>
+
+    <string-array name="assessmentTypes">
+        <item>@string/assessment_type</item>
+        <item>@string/assessment_OA</item>
+        <item>@string/assessment_PA</item>
+    </string-array>
+</resources>

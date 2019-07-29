@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Term Scheduler</string>
+    <string name="plussign">PlusSign</string>
+    <string name="view_terms">View Terms</string>
+    <string name="view_courses">View Courses</string>
+    <string name="title_activity_course_view">View Courses</string>
+    <string name="title_activity_term_view">View Terms</string>
+    <string name="title_activity_edit_term">Add or Edit Term</string>
+    <string name="view_assessments">View Assessments</string>
+    <string name="view_mentors">View Mentors</string>
+    <string name="title_activity_edit_course">Add or Edit Course</string>
+    <string name="title_activity_mentor_view">View Mentors</string>
+    <string name="title_activity_edit_mentor">Add or Edit Mentor</string>
+    <string name="title_activity_assessment_view">View Assessments</string>
+    <string name="title_activity_edit_assessment">Add or Edit Assessment</string>
+
+    <string name="course_status">Please select a status...</string>
+    <string name="course_notStarted">Not Started</string>
+    <string name="course_inProgress">In Progress</string>
+    <string name="course_completed">Completed</string>
+
+    <string name="assessment_type">Assessment type...</string>
+    <string name="assessment_OA">OA</string>
+    <string name="assessment_PA">PA</string>
+
+    <string name="pref_file_name">termSchedulerPrefFile</string>
+</resources>
